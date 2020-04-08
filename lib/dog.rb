@@ -15,3 +15,4 @@ describe "Dog" do
     SQL
     DB[:conn].execute(sql)
   end
+end
