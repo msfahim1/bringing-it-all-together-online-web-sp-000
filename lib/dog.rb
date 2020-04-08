@@ -2,8 +2,8 @@ require_relative "../config/environment.rb"
 
 class Dog
   
-  attr_accessible :name, :breed
-    attr_reader :id
+  attr_accessible :name, :breed, :id
+    attr_reader 
     
   def initialize
     @id= id
